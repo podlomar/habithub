@@ -1,0 +1,35 @@
+{
+  "name": "habithub",
+  "version": "1.0.0",
+  "description": "PWA app for personal tracking",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/podlomar/habithub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/podlomar/habithub/issues"
+  },
+  "homepage": "https://github.com/podlomar/habithub#readme",
+  "dependencies": {
+    "dayjs": "^1.11.8",
+    "next": "^13.4.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@types/react": "^18.2.9",
+    "@types/react-dom": "^18.2.4",
+    "typescript": "^5.1.3"
+  }
+}
