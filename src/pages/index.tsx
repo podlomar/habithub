@@ -24,6 +24,13 @@ const HomePage = ({ today }: Props): JSX.Element => {
   return (
     <div className="container">
       <h1>{today}</h1>
+      <form>
+        <div className="formField">
+          <label htmlFor="input-weight">Váha:</label>
+          <input type="text" id="input-weight" />
+          <button>Nastavit</button>
+        </div>
+      </form>
     </div>
   );
 };

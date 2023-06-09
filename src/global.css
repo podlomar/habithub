@@ -1,5 +1,6 @@
 *, ::before, ::after {
   box-sizing: border-box;
+  font-size: inherit;
 }
 
 html {
@@ -18,4 +19,39 @@ body {
   max-width: 720px;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: #001c3e;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  color: white;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  color: white;
+  font-size: inherit;
+}
+
+label {
+  padding: 0.5rem 0;
+}
+
+.formField {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
